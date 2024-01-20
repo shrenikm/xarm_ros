@@ -6,16 +6,16 @@
   <xacro:arg name="effort_control" default="false"/>
   <xacro:arg name="velocity_control" default="false"/>
   <xacro:arg name="add_gripper" default="false"/>
-  <xacro:arg name="add_vacuum_gripper" default="false"/>
+  <xacro:arg name="add_vacuum_gripper" default="true"/>
   <xacro:arg name="model1300" default="false"/>
   
-  <xacro:arg name="dof" default="7"/>
+  <xacro:arg name="dof" default="6"/>
   <xacro:arg name="robot_ip" default=""/>
-  <xacro:arg name="robot_type" default="xarm"/>
+  <xacro:arg name="robot_type" default="lite"/>
   <xacro:arg name="robot_sn" default=""/>
   <xacro:arg name="report_type" default="normal"/>
 
-  <xacro:arg name="ros2_control_plugin" default="uf_robot_hardware/UFRobotSystemHardware"/>
+  <xacro:arg name="ros2_control_plugin" default=""/>
   <xacro:arg name="ros2_control_params" default=""/>
 
   <xacro:arg name="add_realsense_d435i" default="false"/>
